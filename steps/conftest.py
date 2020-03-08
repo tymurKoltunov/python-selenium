@@ -9,12 +9,6 @@ def answer():
     answer = math.log(int(time.time()))
     return answer
 
-#@pytest.fixture#(scope="class")
-#def browser():
-#    browser = webdriver.Chrome()
-#    yield browser
-#    browser.quit()
-
 def pytest_addoption(parser):
     parser.addoption('--browser', action='store', default="chrome",
                      help="Choose browser: chrome or firefox")
@@ -39,6 +33,7 @@ def browser(request):
     else:
         raise pytest.UsageError("--browser_name should be chrome or firefox")
     yield browser
+    time.sleep(3)
     print("\nquit browser..")
     browser.quit()
 
