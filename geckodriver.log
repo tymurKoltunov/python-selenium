@@ -3694,3 +3694,23 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1677580526747	geckodriver	INFO	Listening on 127.0.0.1:58638
+1677580526809	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "58639" "--r ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/dk/6mqddqvn70s5jkb_4m_f6rs80000gp/T/rust_mozprofile8MQOKZ"
+1677580527696	Marionette	INFO	Marionette enabled
+1677580527950	Marionette	INFO	Listening on port 58651
+Read port: 58651
+2023-02-28 12:35:27.949 plugin-container[29952:1294927] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-28 12:35:27.991 plugin-container[29952:1294927] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:58639
+1677580528094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2023-02-28 12:35:28.175 plugin-container[29952:1294927] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-28 12:35:28.175 plugin-container[29952:1294927] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-02-28 12:35:28.176 plugin-container[29952:1294928] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-02-28 12:35:28.176 plugin-container[29952:1294928] nil host used in call to allowsAnyHTTPSCertificateForHost:
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/dk/6mqddqvn70s5jkb_4m_f6rs80000gp/T/rust_mozprofile8MQOKZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58639/devtools/browser/ed9db7be-6f1a-4f1e-acdb-ecf7b2596514
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1677512296, line 6289: unreachable code after return statement
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1677512296, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1677582225178	Marionette	INFO	Stopped listening on port 58651
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
